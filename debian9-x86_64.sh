@@ -35,7 +35,7 @@ UBOND_PASS=${UBOND_PASS:-$(head -c 32 /dev/urandom | base64 -w0)}
 OPENVPN=${OPENVPN:-yes}
 DSVPN=${DSVPN:-yes}
 WIREGUARD=${WIREGUARD:-yes}
-SOURCES=${SOURCES:-yes}
+SOURCES=${SOURCES:-no}
 if [ "$UPSTREAM" = "yes" ]; then
 	SOURCES="yes"
 fi
