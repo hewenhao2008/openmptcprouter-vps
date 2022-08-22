@@ -80,7 +80,7 @@ VPS_PUBLIC_IP=${VPS_PUBLIC_IP:-$(wget -4 -qO- -T 2 http://ip.openmptcprouter.com
 VPSPATH="server-test"
 VPSURL="https://openmptcprouter.55860.com/"
 REPO="repo.55860.com"
-CHINA=${CHINA:-no}
+CHINA=${CHINA:-yes}
 
 OMR_VERSION="0.1027-test"
 
